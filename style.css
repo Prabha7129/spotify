@@ -94,11 +94,12 @@ button:hover{
 }
 div{
     display: flex;
+    
 }
 #container1{
     position: relative;
     display: inline-block;
-    background-color: rgb(10, 12, 12);
+    background-color: rgb(10, 20, 20);
     top: 20px;
     width: 560px;
     height: 700px;
@@ -149,11 +150,12 @@ div{
 #container2{
     position: relative;
     display: inline-block;
-    background-color: rgb(10, 12, 12);
+    background-color: rgb(10, 20, 20);
     top: 20px;
     width: 1400px;
-    
+    height: 1500px;
     border-radius: 10px;
     color: white;
     left: 5px;
+    
 }
