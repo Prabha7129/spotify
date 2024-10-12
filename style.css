@@ -1,40 +1,30 @@
 body{
     background-color: black;
 }
-header{
-     display: flex;
-}
+
 #logo{
     padding:10px;
 
      
 }
-#home{
-    position: absolute;
-    left: 690px;
-    top: 20px;
-    border-radius: 50%;
-    
-    
-}
 .input{
     background-color: black;
     position: absolute;
-    height: 50px;
-    width: 520px;
-    left: 835px;
-    top: 19px;
-    border-radius: 10px;
-    font-size: 24px;
+    height: 35px;
+    width: 480px;
+    left: 550px;
+    top: 10px;
+    border-radius: 50px;
+    font-size: 15px;
     color: white;
 }
 #search{
     position: absolute;
     border: 2px solid rgb(37, 34, 34);
-    width: 35px;
-    height: 35px;
-    top: 30px;
-    left: 790px;
+    width: 28px;
+    height: 28px;
+    top: 18px;
+    left: 560px;
     border-radius: 50%;
 
 }
@@ -45,57 +35,61 @@ header{
       background-color:rgb(18,17,17) ;
 }
 ::placeholder{
+    position: absolute;
+    left: 50px;
     background-color: rgb(18, 17, 17);
 }
 
 #line{
     position: absolute;
     width: 5px;
-    height: 40px;
-    top: 30px;
-    left: 1305px;
+    height: 30px;
+    top: 15px;
+    left: 980px;
 
 }
 #lock{
     position: absolute;
     width: 30px;
     height: 30px;
-    top: 27px;
-    left: 1320px;
+    top: 15px;
+    left: 1000px;
     border-radius: 50%;
 
 }
-h1{
+h2{
     position: absolute;
-    left: 1800px;
-    color: rgba(185, 183, 183, 0.549);
-    font-size: 25px;
+    left: 15px;
+    color: white;
+    font-size: 16px;
+    top: 150px;
 
 }
-h1:hover{
-    color: white;
-    font-size: 30px;
+h2:hover{
+    color: rgb(118, 53, 32);
+    
+
 }
 button{
     position: absolute;
-    top:20px ;
-    left: 1930px;
-    width: 110px;
-    height: 50px;
+    top:10px ;
+    left: 1430px;
+    width: 80px;
+    height: 40px;
     border-radius: 40px;
     font-size: 16px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
 button:hover{
-    height: 60px;
-    width:120px ;
+    height: 45px;
+    width:85px ;
 }
 .libyicon{
     position: absolute;
     width: 40px;
-    left: 70px;
-    top: 30px;
+    left: 50px;
+    top: 20px;
     border-radius: 50%;
 }
 div{
@@ -106,46 +100,49 @@ div{
     display: inline-block;
     background-color: rgb(10, 12, 12);
     top: 20px;
-    width: 500px;
-    height: 900px;
-    border-radius: 25px;
+    width: 560px;
+    height: 700px;
+    border-radius: 10px;
     color: white;
     
 }
 
-#sp2{
+#plus{
     position: relative;
     color: white;
-    font-size: 45px;
+    font-size: 30px;
     left: 55%;
-    top: 35px;
+    top: 20px;
 
 }
 .box1{
-    background-color: rgb(16, 13, 13);
+    background-color: rgb(28, 22, 22);
     position: relative;
     top: 60px;
-    width: 490px;
-    height: 200px;
-    border-radius: 20px;
+    width: 400px;
+    left: 15px;
+    height: 120px;
+    border-radius: 5px;
     display: inline-block;
     
 }
 .box2{
     position: relative;
-    background-color: rgb(16, 13, 13);
+    background-color: rgb(28, 22, 22);
     color: white;
     display: inline-block;
-    width: 490px;
-    height: 200px;
+    width: 400px;
+    left: 15px;
+    height: 120px;
     top: 100px;
+    border-radius: 5px;
 }
 .box3{
     position: relative;
     background-color: rgb(16,13,13);
     color: white;
     display: inline-block;
-    width: 570px;
+    width: 380px;
     height: 200px;
     top: 150px;
 }
@@ -154,9 +151,9 @@ div{
     display: inline-block;
     background-color: rgb(10, 12, 12);
     top: 20px;
-    width: 1510px;
-    height: 900px;
-    border-radius: 25px;
+    width: 1400px;
+    
+    border-radius: 10px;
     color: white;
-    left: 10px;
+    left: 5px;
 }
