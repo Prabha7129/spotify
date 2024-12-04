@@ -1,79 +1,68 @@
 body{
     background-color: black;
 }
-
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    
+    
+    
+}
 #logo{
-    padding:10px;
+    position: relative;
+    left: 20px;
+}
 
-     
+#home{
+    border-radius: 50%;
+    position: relative;
+    left: 350px;
+
 }
 .input{
+    border: 2px solid;
+    border-radius: 30px;
+    width: 500px;
+    height: 40px;
+    padding-left: 45px;
+    padding-right: 85px;
     background-color: black;
-    position: absolute;
-    height: 35px;
-    width: 480px;
-    left: 550px;
-    top: 10px;
-    border-radius: 50px;
+    color:white ;
     font-size: 15px;
-    color: white;
+    margin-left: 310px;
 }
-#search{
-    position: absolute;
-    border: 2px solid rgb(37, 34, 34);
-    width: 28px;
-    height: 28px;
-    top: 18px;
-    left: 560px;
+
+#searchicon{
+    position: relative;
+    right: 550px;
     border-radius: 50%;
 
 }
-#text{
-      position: absolute;
-      left: 800px;
-      font-size: 20px;
-      background-color:rgb(18,17,17) ;
-}
-::placeholder{
-    position: absolute;
-    left: 50px;
-    background-color: rgb(18, 17, 17);
-}
+
 
 #line{
-    position: absolute;
+    position: relative;
+    right: 230px;
     width: 5px;
     height: 30px;
-    top: 15px;
-    left: 980px;
-
 }
 #lock{
-    position: absolute;
+    position: relative;
+    right: 270px;
     width: 30px;
     height: 30px;
-    top: 15px;
-    left: 1000px;
     border-radius: 50%;
 
 }
-h2{
-    position: absolute;
-    left: 15px;
-    color: white;
-    font-size: 16px;
-    top: 150px;
 
-}
-h2:hover{
-    color: rgb(118, 53, 32);
-    
-
-}
 button{
-    position: absolute;
-    top:10px ;
-    left: 1430px;
+   
     width: 80px;
     height: 40px;
     border-radius: 40px;
@@ -81,81 +70,188 @@ button{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
-button:hover{
-    height: 45px;
-    width:85px ;
-}
+
+
 .libyicon{
-    position: absolute;
-    width: 35px;
-    left: 50px;
-    top: 20px;
+    
     border-radius: 50%;
 }
-div{
+#main{
     display: flex;
+    justify-content: space-between;
     
 }
 #container1{
-    position: relative;
-    display: inline-block;
-    background-color: rgb(10, 20, 20);
-    top: 20px;
-    width: 560px;
+    background-color: rgb(28, 27, 27);
+    width: 23%;
     height: 700px;
     border-radius: 10px;
     color: white;
+    padding: 20px;
     
+    
+    
+    
+    
+}
+#library{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(29, 26, 29);
 }
 
 #plus{
-    position: relative;
-    color: white;
+    
+    
+    color: rgb(206, 197, 197);
     font-size: 30px;
-    left: 70%;
-    top: 20px;
+
+    
 
 }
 .box1{
     background-color: rgb(28, 22, 22);
-    position: relative;
-    top: 60px;
-    width: 400px;
-    left: 15px;
-    height: 120px;
-    border-radius: 5px;
-    display: inline-block;
+    padding: 15px;
+    width: 320px;
+    height: 100px;
+    border-radius: 10px;
+    
     
 }
 .box2{
-    position: relative;
     background-color: rgb(28, 22, 22);
     color: white;
-    display: inline-block;
-    width: 400px;
-    left: 15px;
-    height: 120px;
-    top: 100px;
-    border-radius: 5px;
+    padding: 15px;
+    width: 320px;
+
+    height: 100px;
+    border-radius: 10px;
 }
-.box3{
-    position: relative;
-    background-color: rgb(16,13,13);
-    color: white;
-    display: inline-block;
-    width: 380px;
-    height: 200px;
-    top: 150px;
+#box3{
+  margin-top: 100px;
+  padding: 10px;
 }
 #container2{
-    position: relative;
-    display: inline-block;
-    background-color: rgb(10, 20, 20);
-    top: 20px;
-    width: 1400px;
-    height: 1900px;
+    background-color: rgb(39, 39, 207);
+
+    padding: 10px;
+    width: 95%;
+    height: 650px;
     border-radius: 10px;
     color: white;
-    left: 5px;
+    overflow: auto;
+}
+.Popularartist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
     
+}
+#Popularartist{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.Pritam,.VishalMiShra,.Diljitdosanjh,.AnirudhRavichander,.ArijitSingh,.Vishal-shekhar,.Vishal-shekhar{
+    padding-left: 2px;
+    height: 240px;
+    width: 165px;
+    background-color: rgb(8, 1, 1);
+    border-radius: 10px;
+}
+h2{
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+
+}
+h5{
+    margin-left: 10px;
+    
+}
+.artistimg{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    padding-left: 8px;
+    padding-top: 5px;
+    
+}
+.artistlink{
+    
+    color: rgb(93, 89, 89);
+}
+.Popularalbums{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Popularalbums{
+    display: flex;
+    justify-content: space-between;
+}
+.GLORY,.LoveHotel,.Aashiqui2,.JoTum,.MakingMemories,.Aajki{
+    padding-left: 2px;
+    height: 270px;
+    width: 165px;
+    background-color: rgb(8, 1, 1);
+    border-radius: 10px;
+}
+.Popularradio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Popularradio{
+    display: flex;
+    justify-content: space-between;
+}
+.Atif,.Karan,.Armaan,.Yesudas,.Anirudh,.Uttam{
+    padding-left: 2px;
+    height: 230px;
+    width: 170px;
+    background-color: rgb(8, 1, 1);
+    border-radius: 10px;
+}
+.FeaturedCharts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#FeaturedCharts{
+    display: flex;
+    justify-content: space-between;
+}
+.charts1,.charts2,.charts3,.charts4,.charts5,.charts6{
+    padding-left: 2px;
+    height: 230px;
+    width: 170px;
+    background-color: rgb(8, 1, 1);
+    border-radius: 10px;
+}
+.Zzzzzzz{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Zzzzzzz{
+    display: flex;
+    justify-content: space-between;
+}
+.Instrumental,.Wander,.Ambient,.smoothing,.Sleep,.Jazz{
+    padding-left: 2px;
+    height: 230px;
+    width: 170px;
+    background-color: rgb(8, 1, 1);
+    border-radius: 10px;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
 }
